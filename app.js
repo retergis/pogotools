@@ -1,3 +1,4 @@
+// Do as guide from https://gist.github.com/eslachance/3349734a98d30011bb202f47342601d3#file-app-js
 // Load up the discord.js library
 const Discord = require("discord.js");
 
