@@ -24,8 +24,8 @@
 ```
     Pfunc.add_poke(poke_db,"Deoxys",[345,115,100]);
 ```
-    In this example: add pokemon name "Deoxys" with Base stats: att=345,def=115,sta=100
-    You can add multiple line if need.
+   In this example: add pokemon name "Deoxys" with Base stats: att=345,def=115,sta=100
+   You can add multiple line if need.
 
  $  To edit base stats of Pokemon:
 ```
