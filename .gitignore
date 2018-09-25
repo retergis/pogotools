@@ -1,3 +1,13 @@
+# iOS/MacOS
+.DS_Store
+
+# Data files/folders
+data/
+*.sqlite
+src/config.json
+out/
+.idea
+
 # Logs
 logs
 *.log

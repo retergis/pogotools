@@ -1,0 +1,24 @@
+{
+  "name": "pogotools",
+  "version": "1.0.0",
+  "description": "Pokemon Go Raid/Egg/Quest iv check",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retergis/pogotools.git"
+  },
+  "keywords": [
+    "Pokemon",
+    "Go",
+    "IV"
+  ],
+  "author": "retergis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/retergis/pogotools/issues"
+  },
+  "homepage": "https://github.com/retergis/pogotools#readme"
+}
