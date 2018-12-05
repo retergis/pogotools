@@ -1,6 +1,7 @@
 // Do as guide from https://gist.github.com/eslachance/3349734a98d30011bb202f47342601d3#file-app-js
 // Load up the discord.js library
 const Discord = require("discord.js");
+const Pfunc   = require("./pokemon_func.js");
 
 const client = new Discord.Client();
 
@@ -8,7 +9,15 @@ const client = new Discord.Client();
 // config.token contains the bot's token
 // config.prefix contains the message prefix.
 const config  = require("./config.json");
-const poke_db = require("./gen_name_cp_iv_raidboss_egg_quest.json");
+//const poke_db = require("./gen_name_cp_iv_raidboss_egg_quest.json");
+const poke_stats = require("./ivrose_stats.json");
+const poke_db    = {};
+const pokename_list = Object.keys(poke_stats);
+
+Object.keys(poke_stats).forEach( p => {
+    Pfunc.add_poke(poke_db,p,poke_stats[p]);
+});
+
 
 client.on("ready", () => {
   console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
